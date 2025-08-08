@@ -1,0 +1,55 @@
+url -I https://new.failtedab.ie/
+
+# Check if CSS is loading
+curl -I https://new.failtedab.ie/assets/index-DijPNh2b.css
+
+# Look at the HTML source
+curl https://new.failtedab.ie/ | head -30^C
+[root@2-59-169-160 new]# curl -I https://new.failtedab.ie/
+HTTP/2 200
+date: Thu, 29 May 2025 22:40:23 GMT
+content-type: text/html
+last-modified: Thu, 29 May 2025 22:36:37 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=t8z3%2FlcVi3VPudAEl2Y%2B2dkDQ%2FlkilaUAy8%2BcCkfQOx7%2FlJkEeCfh7QHpaPveX1pE6dBebpL3Zdwx6Fgw5I3Gaeg8tz7t6yRyDA8dmw4T6Y%3D"}]}
+vary: Accept-Encoding
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: 94797e459f0fd8cc-AMS
+alt-svc: h3=":443"; ma=86400
+
+[root@2-59-169-160 new]# curl -I https://new.failtedab.ie/assets/index-DijPNh2b.css
+HTTP/2 200
+date: Thu, 29 May 2025 22:40:43 GMT
+content-type: text/css
+cache-control: public, max-age=604800
+expires: Thu, 05 Jun 2025 22:40:43 GMT
+last-modified: Thu, 29 May 2025 22:36:31 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=E1Alyl3MrZfisK%2FRL4Cebf7HgaAC0%2BwfQml4XlnP44lSQm3YgmdlbSraMKWlyOdgiCqX3mH9PRp35D%2FDQNbXjaESr8qISbtYr2kvrwed4jA%3D"}]}
+vary: Accept-Encoding
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-cache-status: MISS
+cf-ray: 94797ebeb80e9fed-AMS
+alt-svc: h3=":443"; ma=86400
+
+[root@2-59-169-160 new]# curl https://new.failtedab.ie/ | head -30
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   791    0   791    0     0  13877      0 --:--:-- --:--:-- --:--:-- 13877
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>FáilteDAB - Digital Radio Ireland</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUEcM-MmtX9ZH_nPdHU4kfxbDT7j6uu14"></script>
+    <script type="module" crossorigin src="/assets/index-0f1IgLSE.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DijPNh2b.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>[root@2-59-169-160 new]#

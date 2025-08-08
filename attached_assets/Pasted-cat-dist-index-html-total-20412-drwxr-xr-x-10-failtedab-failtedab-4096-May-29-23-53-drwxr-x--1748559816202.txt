@@ -1,0 +1,60 @@
+cat dist/index.html
+total 20412
+drwxr-xr-x  10 failtedab failtedab     4096 May 29 23:53 .
+drwxr-x---  10 failtedab nobody        4096 May 29 21:53 ..
+drwxr-xr-x   2 failtedab failtedab     4096 May 29 23:53 assets
+drw-r--r--   2 failtedab failtedab     4096 May 29 23:12 attached_assets
+drw-r--r--   3 failtedab failtedab     4096 May 29 23:52 dist
+-rw-r--r--   1 failtedab failtedab       90 May 29 23:48 .env
+-rw-r--r--   1 failtedab failtedab 20482321 May 29 23:48 failtedab-website.tar.gz
+-rw-r--r--   1 failtedab failtedab      791 May 30 00:01 index.html
+-rw-r--r--   1 failtedab failtedab     8933 May 29 23:53 index.js
+drw-r--r-- 318 failtedab failtedab    12288 May 29 23:50 node_modules
+-rw-r--r--   1 failtedab failtedab     3569 May 29 23:12 package.json
+-rw-r--r--   1 failtedab failtedab   320734 May 29 23:50 package-lock.json
+-rw-r--r--   1 failtedab failtedab      701 May 29 23:12 package-production.json
+-rw-r--r--   1 failtedab failtedab       80 May 29 23:12 postcss.config.js
+drw-r--r--   2 failtedab failtedab     4096 May 29 23:12 server
+drw-r--r--   2 failtedab failtedab     4096 May 29 23:12 shared
+drw-r--r--   6 failtedab failtedab     4096 May 29 23:12 src
+-rw-r--r--   1 failtedab failtedab     2787 May 29 23:12 tailwind.config.ts
+-rw-r--r--   1 failtedab failtedab      657 May 29 23:12 tsconfig.json
+-rw-r--r--   1 failtedab failtedab      487 May 29 23:51 vite.config.ts
+drwxr-xr-x   3 failtedab failtedab     4096 May 29 23:53 .well-known
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>FáilteDAB - Digital Radio Ireland</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUEcM-MmtX9ZH_nPdHU4kfxbDT7j6uu14"></script>
+    <script type="module" crossorigin src="/assets/index-YfuglwZP.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DijPNh2b.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>[root@2-59-169-160curl -I https://new.failtedab.ie/assets/index-YfuglwZP.jslwZP.js
+HTTP/2 200
+date: Thu, 29 May 2025 23:03:02 GMT
+content-type: text/javascript
+last-modified: Thu, 29 May 2025 22:53:02 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3cIB2iiejgyObH1wN2lJOhGO71GvNqAu%2BnJm9AJr1RdVT9RSRD5WGw6hGa8cNxGV9orQcGgDgsPa2952rUMhO7xMjE5o84SOTS1XZPcjPj4%3D"}]}
+vary: Accept-Encoding
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cache-control: max-age=14400
+cf-cache-status: MISS
+cf-ray: 94799f71ca599fb2-AMS
+alt-svc: h3=":443"; ma=86400
+
+[root@2-59-169-160 new]# ls -la dist/
+total 28
+drw-r--r--  3 failtedab failtedab 4096 May 29 23:52 .
+drwxr-xr-x 10 failtedab failtedab 4096 May 29 23:53 ..
+drw-r--r--  2 failtedab failtedab 4096 May 29 23:52 assets
+-rw-r--r--  1 failtedab failtedab  791 May 29 23:52 index.html
+-rw-r--r--  1 failtedab failtedab 8933 May 29 23:52 index.js
+[root@2-59-169-160 new]#

@@ -1,0 +1,42 @@
+[root@2-59-169-160 new]# cd /home/failtedab/public_html/new/
+[root@2-59-169-160 new]# cp -r dist/* .
+cp: overwrite './assets/it-is-a-radio-with-folding-antenna-with-fm-am-da-2025-02-10-06-22-08-utc-DlakVfOp.jpg'? y
+cp: overwrite './assets/index-0f1IgLSE.js'? y
+cp: overwrite './assets/presenters-or-moderators-man-and-woman-in-radi-2025-02-21-15-57-33-utc-BiJzhZiS.jpg'? y
+cp: overwrite './assets/index-DijPNh2b.css'? y
+cp: overwrite './assets/young-woman-enjoying-music-with-headphones-in-a-vi-2025-03-10-22-10-47-utc-BXFB9CFZ.jpg'? y
+cp: overwrite './assets/closeup-image-of-a-woman-holding-steering-wheel-wh-2024-12-02-09-15-29-utc-BkoEABw-.jpg'? y
+cp: overwrite './index.html'? y
+cp: overwrite './index.js'? y
+[root@2-59-169-160 new]# ls -la
+total 20404
+drwxr-xr-x   9 failtedab nobody        4096 May 29 23:32 .
+drwxr-x---  10 failtedab nobody        4096 May 29 21:53 ..
+drwxr-xr-x   2 root      root          4096 May 29 23:31 assets
+drwxr-xr-x   2 failtedab failtedab     4096 May 29 23:12 attached_assets
+drwxr-xr-x   3 root      root          4096 May 29 23:28 dist
+-rw-r--r--   1 failtedab failtedab 20482321 May 29 23:21 failtedab-website.tar.gz
+-rw-r--r--   1 failtedab failtedab      791 May 29 23:36 index.html
+-rw-r--r--   1 root      root          8933 May 29 23:36 index.js
+drwxr-xr-x 318 root      root         12288 May 29 23:24 node_modules
+-rw-r--r--   1 failtedab failtedab     3569 May 29 23:12 package.json
+-rw-r--r--   1 failtedab failtedab   320734 May 29 23:24 package-lock.json
+-rw-r--r--   1 failtedab failtedab      701 May 29 23:12 package-production.json
+-rw-r--r--   1 failtedab failtedab       80 May 29 23:12 postcss.config.js
+drwxr-xr-x   2 failtedab failtedab     4096 May 29 23:12 server
+drwxr-xr-x   2 failtedab failtedab     4096 May 29 23:12 shared
+drwxr-xr-x   6 failtedab failtedab     4096 May 29 23:12 src
+-rw-r--r--   1 failtedab failtedab     2787 May 29 23:12 tailwind.config.ts
+-rw-r--r--   1 failtedab failtedab      657 May 29 23:12 tsconfig.json
+-rw-r--r--   1 failtedab failtedab      487 May 29 23:27 vite.config.ts
+[root@2-59-169-160 new]# ls -la assets/
+total 20128
+drwxr-xr-x 2 root      root      4096 May 29 23:31 .
+drwxr-xr-x 9 failtedab nobody    4096 May 29 23:32 ..
+-rw-r--r-- 1 root      root   7067919 May 29 23:36 closeup-image-of-a-woman-holding-steering-wheel-wh-2024-12-02-09-15-29-utc-BkoEABw-.jpg
+-rw-r--r-- 1 root      root    550722 May 29 23:36 index-0f1IgLSE.js
+-rw-r--r-- 1 root      root      7442 May 29 23:36 index-DijPNh2b.css
+-rw-r--r-- 1 root      root   1223367 May 29 23:36 it-is-a-radio-with-folding-antenna-with-fm-am-da-2025-02-10-06-22-08-utc-DlakVfOp.jpg
+-rw-r--r-- 1 root      root   9374127 May 29 23:36 presenters-or-moderators-man-and-woman-in-radi-2025-02-21-15-57-33-utc-BiJzhZiS.jpg
+-rw-r--r-- 1 root      root   2367955 May 29 23:36 young-woman-enjoying-music-with-headphones-in-a-vi-2025-03-10-22-10-47-utc-BXFB9CFZ.jpg
+[root@2-59-169-160 new]#
